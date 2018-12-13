@@ -1,0 +1,4 @@
+<ifModule mod_headers.c>
+#Header set Content-Security-Policy “default-src * ‘unsafe-inline’ ‘unsafe-eval’; script-src * ‘unsafe-inline’ ‘unsafe-eval’;”
+Header always set Content-Security-Policy: "frame-src 'self' *;"
+</ifModule>
